@@ -1,0 +1,9 @@
+target_sources(learncpp
+    PRIVATE
+        TestNamespaces.cpp
+        TestNull.cpp
+        TestToString.cpp
+        TestUniquePtr.cpp
+        TestUnorderedMap.cpp
+        TestVector.cpp
+)

@@ -1,0 +1,9 @@
+target_sources(learncpp
+    PRIVATE
+        BubbleSort.hpp
+        MergeSort.hpp
+        InsertionSort.hpp
+        QuickSort.hpp
+        QuickSort2.hpp
+        TestSort.cpp
+)

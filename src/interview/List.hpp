@@ -8,6 +8,8 @@
 // add
 // print
 
+namespace interview
+{
 template <typename T>
 class List
 {
@@ -72,3 +74,4 @@ private:
     Node* head{nullptr};
     Node* tail{nullptr};
 };
+} // namespace interview

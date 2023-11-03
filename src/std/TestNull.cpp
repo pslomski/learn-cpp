@@ -5,7 +5,6 @@ namespace testing
 {
 TEST(TestNull, testNull)
 {
-    int* p = static_cast<int*>((void*)0);
-    ASSERT_THAT(p, Eq((void*)0));
+    ASSERT_THAT((void*)0, Eq(nullptr));
 }
 } // namespace testing

@@ -30,5 +30,10 @@ target_link_libraries(learncpp
   GTest::gmock_main
 )
 
+target_include_directories(learncpp
+  PRIVATE
+    src
+)
+
 include(GoogleTest)
 gtest_discover_tests(learncpp)

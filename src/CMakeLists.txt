@@ -1,6 +1,8 @@
-target_sources(learncpp
-    PRIVATE
-        TestNull.cpp
-)
-
+add_subdirectory(fizzbuzz)
 add_subdirectory(interview)
+add_subdirectory(list)
+add_subdirectory(matrix)
+add_subdirectory(order)
+add_subdirectory(tree)
+add_subdirectory(sort)
+add_subdirectory(std)
