@@ -46,7 +46,7 @@ TEST(Order, przechodnoscEkwiwalencji)
     ASSERT_FALSE(!(cmp(1, 2) || cmp(2, 1)));
 }
 
-TEST(Order, ObjEquivalence)
+TEST(Order, objEquivalence)
 {
     Obj<int> o{1};
     ASSERT_TRUE(!(cmp(o, o) || cmp(o, o)));
