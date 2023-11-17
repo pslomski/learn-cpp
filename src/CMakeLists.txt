@@ -1,3 +1,4 @@
+add_subdirectory(event)
 add_subdirectory(fizzbuzz)
 add_subdirectory(interview)
 add_subdirectory(list)
